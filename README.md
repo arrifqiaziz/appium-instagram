@@ -1,5 +1,5 @@
 # appium-instagram
-Project Appium Week 3 - Bootcamp Intermediate Quality Assurance Sanbercode Batch 49
+Project Appium Week 4 - Bootcamp Intermediate Quality Assurance Sanbercode Batch 49
 
 This repository is a documentation of week 4 from [Bootcamp Intermediate Quality Assurance Sanbercode](https://sanbercode.com/) :
 

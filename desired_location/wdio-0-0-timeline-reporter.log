@@ -1,0 +1,88 @@
+{
+  "start": "2023-09-23T17:06:34.258Z",
+  "end": "2023-09-23T17:07:07.750Z",
+  "capabilities": {
+    "platform": "LINUX",
+    "webStorageEnabled": false,
+    "takesScreenshot": true,
+    "javascriptEnabled": true,
+    "databaseEnabled": false,
+    "networkConnectionEnabled": true,
+    "locationContextEnabled": false,
+    "warnings": {},
+    "desired": {
+      "platformName": "Android",
+      "platformVersion": "13",
+      "automationName": "UIAutomator2",
+      "appPackage": "com.instagram.android",
+      "appActivity": "com.instagram.mainactivity.MainActivity",
+      "noReset": true,
+      "autoGrantPermissions": true,
+      "forceAppLaunch": true
+    },
+    "platformName": "Android",
+    "platformVersion": "13",
+    "automationName": "UIAutomator2",
+    "appPackage": "com.instagram.android",
+    "appActivity": "com.instagram.mainactivity.MainActivity",
+    "noReset": true,
+    "autoGrantPermissions": true,
+    "forceAppLaunch": true,
+    "deviceName": "ZTQCQ499SS4DYLLB",
+    "deviceUDID": "ZTQCQ499SS4DYLLB",
+    "deviceApiLevel": 33,
+    "deviceScreenSize": "1080x2400",
+    "deviceScreenDensity": 440,
+    "deviceModel": "2201116TG",
+    "deviceManufacturer": "Xiaomi",
+    "pixelRatio": 2.75,
+    "statBarHeight": 93,
+    "viewportRect": {
+      "left": 0,
+      "top": 93,
+      "width": 1080,
+      "height": 2214
+    },
+    "sessionId": "80fb8520-2f5f-4dde-9231-5073a9502d7d"
+  },
+  "host": "0.0.0.0",
+  "port": 4723,
+  "baseUrl": "",
+  "framework": "mocha",
+  "duration": 33492,
+  "suites": [
+    {
+      "title": "Search, Follow and Unfollow Account",
+      "duration": 33286,
+      "start": "2023-09-23T17:06:34.261Z",
+      "end": "2023-09-23T17:07:07.547Z",
+      "tests": [
+        {
+          "title": "Search and Follow Account",
+          "start": "2023-09-23T17:06:34.261Z",
+          "end": "2023-09-23T17:06:50.190Z",
+          "duration": 15929,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Search and Unfollow Account",
+          "start": "2023-09-23T17:06:50.192Z",
+          "end": "2023-09-23T17:07:07.546Z",
+          "duration": 17354,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "file:///C:/Users/arrif/OneDrive/Dokumen/SanberCode/appium-instagram/tests/specs/searchFollowUnfollow.spec.js"
+  ],
+  "state": {
+    "passed": 2,
+    "failed": 0,
+    "skipped": 0
+  }
+}

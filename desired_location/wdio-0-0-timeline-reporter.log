@@ -1,6 +1,6 @@
 {
-  "start": "2023-09-25T16:07:38.956Z",
-  "end": "2023-09-25T16:08:21.373Z",
+  "start": "2023-09-25T16:35:30.604Z",
+  "end": "2023-09-25T16:36:01.099Z",
   "capabilities": {
     "platform": "LINUX",
     "webStorageEnabled": false,
@@ -43,33 +43,25 @@
       "width": 1080,
       "height": 2214
     },
-    "sessionId": "be2a8fcb-e10a-4974-a798-19acef0586b4"
+    "sessionId": "c77b7fd6-9321-421c-8132-54b066cb0d69"
   },
   "host": "0.0.0.0",
   "port": 4723,
   "baseUrl": "",
   "framework": "mocha",
-  "duration": 42417,
+  "duration": 30495,
   "suites": [
     {
       "title": "Send Direct Message",
-      "duration": 42185,
-      "start": "2023-09-25T16:07:38.958Z",
-      "end": "2023-09-25T16:08:21.143Z",
+      "duration": 30258,
+      "start": "2023-09-25T16:35:30.607Z",
+      "end": "2023-09-25T16:36:00.865Z",
       "tests": [
         {
-          "title": "Send text message",
-          "start": "2023-09-25T16:07:38.959Z",
-          "end": "2023-09-25T16:07:57.073Z",
-          "duration": 18114,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Send text message with JSON File",
-          "start": "2023-09-25T16:07:57.075Z",
-          "end": "2023-09-25T16:08:21.142Z",
-          "duration": 24067,
+          "title": "Send image message",
+          "start": "2023-09-25T16:35:30.607Z",
+          "end": "2023-09-25T16:36:00.864Z",
+          "duration": 30257,
           "state": "passed",
           "screenshots": []
         }
@@ -81,7 +73,7 @@
     "file:///C:/Users/arrif/OneDrive/Dokumen/SanberCode/appium-instagram/tests/specs/sendMessage.spec.js"
   ],
   "state": {
-    "passed": 2,
+    "passed": 1,
     "failed": 0,
     "skipped": 0
   }

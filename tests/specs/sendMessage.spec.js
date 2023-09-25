@@ -17,4 +17,12 @@ describe('Send Direct Message', () => {
     await searchPage.searchAccount(dataset.username)
     await accountDetail.sendTextMessage(dataset.message)
   })
+
+  it('Send image message', async () => {
+    await accountDetail.back()
+    await menuBar.clickSearchMenu()
+    await searchPage.searchAccount('auliarhohmah03')
+    await accountDetail.sendImage()
+  })
+
 })

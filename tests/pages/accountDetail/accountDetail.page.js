@@ -29,6 +29,26 @@ class accountDetail {
     return $('id:com.instagram.android:id/action_bar_button_back')
   }
 
+  get imageMessage(){
+    return $('id:com.instagram.android:id/row_thread_composer_button_gallery')
+  }
+
+  get menu(){
+    return $('id:com.instagram.android:id/media_picker_header_title')
+  }
+
+  get selectMenu(){
+    return $('/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[5]/android.widget.TextView[1]')
+  }
+
+  get selectImage(){
+    return $('xpath://*[@content-desc="Photo thumbnail, Added on June 2"]')
+  }
+
+  get buttonSendImage(){
+    return $('xpath://*[@content-desc="Send"]/android.widget.TextView')
+  }
+
   async followAccount() {
     await waitHelper.waitUntilElemetExist(this.usernameAccount)
     await expect(this.follow).toHaveText('Follow')
@@ -53,6 +73,15 @@ class accountDetail {
 
   async back(){
     await waitHelper.waitAndClick(this.backButton)
+  }
+
+  async sendImage(){
+    await waitHelper.waitAndClick(this.message)
+    await waitHelper.waitAndClick(this.imageMessage)
+    await waitHelper.waitAndClick(this.menu)
+    await waitHelper.waitAndClick(this.selectMenu)
+    await waitHelper.waitAndClick(this.selectImage)
+    await waitHelper.waitAndClick(this.buttonSendImage)
   }
 }
 

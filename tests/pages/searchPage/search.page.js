@@ -15,6 +15,7 @@ class search {
     await this.searchBar.setValue(accountName)
     await delay.delay(3000)
     await waitHelper.waitUntilElemetExist(this.searchResult)
+    await delay.delay(1000)
     await waitHelper.waitAndClick(this.searchResult)
   }
 }

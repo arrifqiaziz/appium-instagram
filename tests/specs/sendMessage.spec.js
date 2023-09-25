@@ -1,6 +1,8 @@
-const menuBar = require('../page/menuBar.page')
-const searchPage = require('../page/searchPage/search.page')
-const accountDetail = require('../page/accountDetail/accountDetail.page')
+const menuBar = require('../pages/menuBar.page')
+const searchPage = require('../pages/searchPage/search.page')
+const accountDetail = require('../pages/accountDetail/accountDetail.page')
+const dataset = require('../fixtures/data/dataset.json')
+const delay = require('../../helpers/delayHelper')
 
 describe('Send Direct Message', () => {
   it('Send text message', async () => {
@@ -9,8 +11,10 @@ describe('Send Direct Message', () => {
     await accountDetail.sendTextMessage('Hello World !')
   })
 
-  // it('Send image message', async () => {
-  //   await menuBar.clickSearchMenu()
-  //   await searchPage.searchAccount('auliarhohmah03')
-  // })
+  it('Send text message with JSON File', async () => {
+    await accountDetail.back()
+    await menuBar.clickSearchMenu()
+    await searchPage.searchAccount(dataset.username)
+    await accountDetail.sendTextMessage(dataset.message)
+  })
 })

@@ -25,6 +25,10 @@ class accountDetail {
     return $('id:com.instagram.android:id/row_thread_composer_button_send')
   }
 
+  get backButton(){
+    return $('id:com.instagram.android:id/action_bar_button_back')
+  }
+
   async followAccount() {
     await waitHelper.waitUntilElemetExist(this.usernameAccount)
     await expect(this.follow).toHaveText('Follow')
@@ -45,6 +49,10 @@ class accountDetail {
     await waitHelper.waitAndClick(this.message)
     await this.typeMessage.setValue(message)
     await waitHelper.waitAndClick(this.sendButton)
+  }
+
+  async back(){
+    await waitHelper.waitAndClick(this.backButton)
   }
 }
 

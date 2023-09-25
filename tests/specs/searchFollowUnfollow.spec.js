@@ -1,6 +1,6 @@
-let menuBar = require('../page/menuBar.page')
-let searchPage = require('../page/searchPage/search.page')
-let accountDetail = require('../page/accountDetail/accountDetail.page')
+let menuBar = require('../pages/menuBar.page')
+let searchPage = require('../pages/searchPage/search.page')
+let accountDetail = require('../pages/accountDetail/accountDetail.page')
 
 describe('Search, Follow and Unfollow Account', () => {
   it('Search and Follow Account', async () => {

@@ -1,6 +1,6 @@
 {
-  "start": "2023-09-23T17:06:34.258Z",
-  "end": "2023-09-23T17:07:07.750Z",
+  "start": "2023-09-25T14:49:39.312Z",
+  "end": "2023-09-25T14:49:57.089Z",
   "capabilities": {
     "platform": "LINUX",
     "webStorageEnabled": false,
@@ -43,33 +43,25 @@
       "width": 1080,
       "height": 2214
     },
-    "sessionId": "80fb8520-2f5f-4dde-9231-5073a9502d7d"
+    "sessionId": "ea8889d5-5365-4322-bc55-0c71e8641a59"
   },
   "host": "0.0.0.0",
   "port": 4723,
   "baseUrl": "",
   "framework": "mocha",
-  "duration": 33492,
+  "duration": 17777,
   "suites": [
     {
-      "title": "Search, Follow and Unfollow Account",
-      "duration": 33286,
-      "start": "2023-09-23T17:06:34.261Z",
-      "end": "2023-09-23T17:07:07.547Z",
+      "title": "Send Direct Message",
+      "duration": 17573,
+      "start": "2023-09-25T14:49:39.315Z",
+      "end": "2023-09-25T14:49:56.888Z",
       "tests": [
         {
-          "title": "Search and Follow Account",
-          "start": "2023-09-23T17:06:34.261Z",
-          "end": "2023-09-23T17:06:50.190Z",
-          "duration": 15929,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Search and Unfollow Account",
-          "start": "2023-09-23T17:06:50.192Z",
-          "end": "2023-09-23T17:07:07.546Z",
-          "duration": 17354,
+          "title": "Send text message",
+          "start": "2023-09-25T14:49:39.315Z",
+          "end": "2023-09-25T14:49:56.887Z",
+          "duration": 17572,
           "state": "passed",
           "screenshots": []
         }
@@ -78,10 +70,10 @@
     }
   ],
   "specs": [
-    "file:///C:/Users/arrif/OneDrive/Dokumen/SanberCode/appium-instagram/tests/specs/searchFollowUnfollow.spec.js"
+    "file:///C:/Users/arrif/OneDrive/Dokumen/SanberCode/appium-instagram/tests/specs/sendMessage.spec.js"
   ],
   "state": {
-    "passed": 2,
+    "passed": 1,
     "failed": 0,
     "skipped": 0
   }

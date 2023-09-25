@@ -1,4 +1,5 @@
 const waitHelper = require('../../../helpers/waitHelper')
+const delay = require('../../../helpers/delayHelper')
 
 class search {
   get searchBar() {
@@ -12,6 +13,7 @@ class search {
   async searchAccount(accountName) {
     await waitHelper.waitAndClick(this.searchBar)
     await this.searchBar.setValue(accountName)
+    await delay.delay(3000)
     await waitHelper.waitUntilElemetExist(this.searchResult)
     await waitHelper.waitAndClick(this.searchResult)
   }

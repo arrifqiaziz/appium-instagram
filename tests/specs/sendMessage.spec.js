@@ -6,12 +6,11 @@ describe('Send Direct Message', () => {
   it('Send text message', async () => {
     await menuBar.clickSearchMenu()
     await searchPage.searchAccount('auliarhohmah03')
-    // await accountDetail.followAccount()
+    await accountDetail.sendTextMessage('Hello World !')
   })
 
-  it('Send image message', async () => {
-    await menuBar.clickSearchMenu()
-    await searchPage.searchAccount('auliarhohmah03')
-    // await accountDetail.unfollowAccount()
-  })
+  // it('Send image message', async () => {
+  //   await menuBar.clickSearchMenu()
+  //   await searchPage.searchAccount('auliarhohmah03')
+  // })
 })

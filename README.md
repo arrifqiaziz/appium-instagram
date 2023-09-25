@@ -12,7 +12,7 @@ This repository is a documentation of week 4 from [Bootcamp Intermediate Quality
 4. Run the code with `npm run wdio` or run each spec with `npm run follow` or `npm run message`
 
 [FOR SCREEN RECORD LINK IS HERE! :)
-](https://www.youtube.com/watch?v=5IRgQU5hsGI)
+](https://www.youtube.com/watch?v=5IRgQU5hsGI) \
 [AND FOR MEDIUM IS HERE!](https://medium.com/@arrifqiaziz/appium-automation-fb83ba388690)
 
 #### Signature
